@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+.logo {
+    float:left;
+    background-color: black;
+}
+
+.logo img {
+    height: 125px;
+    width: 125px;
+}
+
+.nav {
+    clear:both;
+}
+
+header .mainheading {
+    border: 5px solid goldenrod;
+    border-style: ridge;
+    padding: 10px;
+    background-color: black;
+}
+
+.heading {
+    font-size:3em;
+    padding:10px;
+    font-family: "Poetsen One", sans-serif;
+}
+
+.subheading {
+    font-size: 2em;
+    padding:10px;
+    margin-bottom: 5px;
+}
+
+.heading, .subheading {
+    text-align: center;
+    background-color: black;
+    color: goldenrod;
+}
+
+body {
+    font-family: "Winky Rough", sans-serif;
+    background-color: black;
+}
+
+header nav {
+    background-color: black;
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin:0;
+    position: relative;
+    float: left;
+}
+
+header nav ul li {
+    display:inline-block;
+    background-color: black;
+}
+
+header nav a {
+    display: block;
+    padding: 0 10px;
+    font-size: 1em;
+    line-height: 40px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+header nav a:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.menu {
+    display:none;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.menu:hover {
+    background-color: goldenrod;
+    color: black;
+}
+
+.main{
+    clear:both;
+    background-color: black;
+    color:white;
+}
+
+.main img {
+    float:left;
+    padding: 0px;
+    width: 20%;
+    border: 10px solid white;
+    margin: 2%;
+    border-style: ridge;
+}
+
+.main article {
+   padding: 10px;
+   font-size: 1.2em;
+   border-bottom: 1px solid goldenrod ; 
+   overflow:hidden;
+}
+
+.main article p::first-letter {
+    font-size:1.5em;
+    color: goldenrod;
+}
+
+div {
+    background-color: white;
+}
+
+.timetable {
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.timetable h1 {
+    color:goldenrod;
+}
+
+.footer:after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
+.footer {
+    text-align: center; 
+    color:goldenrod;
+    padding: 20px;
+    background-color: black;
+}
+
+.footer>div{
+    float: left; 
+    background-color: black;
+}
+
+.footer img {
+    height: 20px;
+    width: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color:aquamarine;
+}
+
+.first {
+    width: 25%;
+    text-align: left;
+}
+
+.third {
+    width: 10%;
+    text-align: left;
+}
+
+.col {
+    margin:auto;
+    width: 100%;
+    background-color: black;
+}
+
+.second {
+    width: 65%;
+    text-align: left;
+}
+
+.findus {
+    background-color: black;
+}
+
+.third ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.third li {
+    list-style: none;
+}
+
+.hide {
+    display:block;
+}
+
+@media all and (max-width: 640px) {
+    body{
+        background-color: black;
+    }
+
+    .logo img {
+        height: 75px;
+        width: 75px;
+    }
+
+    .heading {
+        font-size:2em;
+        padding: 0px;
+    }
+
+    .subheading {
+        font-size: 1.25em;
+        margin-bottom: 0px;
+    }
+
+    .main img {
+        width: 100%
+    }
+
+    header nav {
+        text-align: left;
+    }
+
+    header nav ul li {
+        display:block;
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+        background-color: black;
+        color:goldenrod;
+        display:block;
+    }
+
+    .first, .third {
+        width: 100%;
+    }
+
+    .second {
+        width: 100%;
+    }
+    
+    .hide {
+        display:none;
+    }
+}

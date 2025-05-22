@@ -1,0 +1,29 @@
+[
+    {
+        "firstname" : "Luca",
+        "lastname" : "Sechi",
+        "nickname" : "The Assassin",
+        "fights" : 12,
+        "year" : 2012
+    },
+    {
+        "firstname" : "Kenny",
+        "lastname" : "Sturt",
+        "nickname" : "Chelmsford StreetBeefs",
+        "fights" : 9
+    },
+    {
+        "firstname" : "Tommy",
+        "lastname" : "Pemberton",
+        "nickname" : "Quicksilver",
+        "fights" : 7
+    },
+    {
+        "firstname" : "Radley",
+        "lastname" : "Brown",
+        "nickname" : "Bomber",
+        "fights" : 8
+
+
+    }
+]
