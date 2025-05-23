@@ -13,33 +13,24 @@
 .logo img {
     height: 125px;
     width: 125px;
-    filter: brightness(1.5);
 }
 
 .nav {
     clear:both;
 }
 
-.heading {
-    font-size:3em;
-    padding:10px;
-    font-family: "Poetsen One", sans-serif;
-    text-transform: uppercase;
-}
-
-header .mainheading {
-    border: 5px solid goldenrod;
-    border-style: ridge;
+.mainheading {
+    background: #111; /* Deeper black for modern look */
+    border: 4px solid goldenrod;
     border-radius: 20px;
-    padding: 10px;
-    background-color: black;
-    text-shadow:
-        2px 2px 0 gold,           /* White outline, top left */
-        4px 4px 0 white,      /* Gold shadow, bottom right */
-        6px 6px 8px #111,         /* Deep black shadow for depth */
-        0 10px 16px rgba(0,0,0,0.35),
-        0 2px 0 rgba(0,0,0,0.5);  /* Subtle bottom shadow */
-
+    padding: 24px 36px;
+    margin: 32px auto 18px auto;
+    /* Add a soft golden glow around for contrast */
+    box-shadow:
+        0 0 0 4px rgba(218, 165, 32, 0.27),
+        0 8px 24px 0 rgba(0,0,0,0.45); /* shadow beneath */
+    max-width: 750px;
+    text-align: center;
 }
 
 .subheading {
@@ -103,7 +94,7 @@ header nav a:hover {
     color: black;
 }
 
-.main {
+.main{
     clear:both;
     background-color: black;
     color:white;
@@ -162,14 +153,9 @@ header nav a:hover {
    overflow:hidden;
 }
 
-.main article  {
+.main article p::first-letter {
     font-size:1.5em;
-    color: white;
-}
-
-.main article::first-letter {
     color: goldenrod;
-    font-size: 1.65em;
 }
 
 div {
@@ -188,130 +174,8 @@ div {
     color:goldenrod;
 }
 
-.timetable p {
-    color: goldenrod;
-    font-size: 1.2em;
-}
-
 .image_gallery {
     border-bottom: 1px solid goldenrod;
-}
-
-.news_grid {
-    background-color: black;
-    padding: 20px;
-    border-bottom: 5px solid goldenrod;
-}
-
-.news_grid table {
-    padding: 5px;
-}
-
-.news_grid table td {
-    padding: 20px;
-}
-
-.news_grid p {
-    color: goldenrod;
-    font-size: 1.25em;
-}
-
-.main .forBorder {
-    background-color: black;
-    border-bottom: 1px solid goldenrod;
-}
-
-.honours {
-    background-color: black;
-    margin: 50px;
-    
-}
-
-.honours p {
-    font-size: 1.5em;
-    color: goldenrod;
-}
-
-.honours img {
-    width: 175px;
-    height: 200px;
-    border: 5px solid goldenrod;
-    border-style:inset;
-}
-
-.honours h1 {
-    font-size: 3em;
-    padding-top: 50px;
-}
-
-.honours h2 {
-    font-size: 2em;
-}
-
-.honours ul {
-    color: goldenrod;
-    font-size: 1.5em;
-    list-style: none;
-}
-
-.honours tr {
-    padding: 10px;
-}
-
-.boxers {
-    background-color: black;
-    padding: 30px;
-    color:black;
-    border-bottom: 1px solid goldenrod;
-}
-
-.boxers div {
-    background-color: black;
-}
-
-.boxers select {
-    width: 300px;
-    color: white;
-    background-color: goldenrod;
-    border: 2px solid white;
-    border-radius: 6px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    padding: 8px 12px;
-    margin-bottom: 20px;
-    transition: border-color 0.2s, box-shadow 0.2s;
-    appearance: none; /* Makes custom styling work better */
-    outline: none;
-    box-shadow: none;
-    cursor: pointer;
-}
-
-.boxers select:focus,
-.boxers select:hover {
-    border-color: black;
-    box-shadow: 0 0 5px goldenrod;
-}
-
-.boxers td {
-    vertical-align: top;
-}
-
-.boxers img {
-    width:40%;
-    min-width: 30%;
-    background-color: black;
-    padding: 5px;
-    border: 3px solid white;
-    border-style:ridge;
-}
-
-.boxers p {
-    color: white;
-    font-size: 2em;
-}
-
-.boxers p::after {
-    clear:both;
 }
 
 .footer {
@@ -320,11 +184,6 @@ div {
     padding: 20px;
     background-color: black;
     font-size: 1.25em;
-}
-
-.footer p {
-    margin:2px;
-    padding: 0px;
 }
 
 .footer:after {
@@ -389,7 +248,7 @@ div {
     display:block;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 640px) {
     body{
         background-color: black;
     }
@@ -431,25 +290,6 @@ div {
 
     .main .image_gallery img {
         width: 90%;  
-    }
-
-    .news_grid table img {
-        width: 100px;
-    }
-
-    .honours {
-        background-color: black;
-        margin: 10px;    
-    }
-
-    .honours h1 {
-        font-size: 3em;
-        padding-top: 0px;
-    }
-
-    .honours img {
-        width: 100px;
-        height: 125px;
     }
 
     .first, .third {
