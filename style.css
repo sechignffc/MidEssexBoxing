@@ -506,7 +506,8 @@ div {
     }
 
     .main .image_gallery img {
-        width: 90%;  
+        width: 90%;
+        padding: 5px;  
     }
 
     .news_grid table img {
