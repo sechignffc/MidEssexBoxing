@@ -7,32 +7,29 @@
 
 .logo {
     float:left;
-    background-color: black;
+    background-color: white;
 }
 
 .logo img {
-    height: 125px;
-    width: 125px;
-    filter: brightness(1.5);
+    width: 135px;
+    height:auto;
+    
+    filter: brightness(1.8);
+    border: 1px solid white;
+    border-radius: 20px;
+
 }
 
 .nav {
     clear:both;
 }
 
-.heading {
-    font-size:3em;
-    padding:10px;
-    font-family: "Poetsen One", sans-serif;
-    text-transform: uppercase;
-}
-
-header .mainheading {
+.mainheading {
     border: 5px solid goldenrod;
     border-style: ridge;
     border-radius: 20px;
     padding: 10px;
-    background-color: black;
+    background-color: blackwhite;
     text-shadow:
         2px 2px 0 gold,           /* White outline, top left */
         4px 4px 0 white,      /* Gold shadow, bottom right */
@@ -42,16 +39,33 @@ header .mainheading {
 
 }
 
-.subheading {
-    font-size: 2em;
-    padding:10px;
-    margin-bottom: 5px;
+.mainheading table {
+    text-align: center;
+    width: 90%;
 }
 
-.heading, .subheading {
-    text-align: center;
-    background-color: black;
+.heading {
+    font-size:3em;
+    padding:10px;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: uppercase;
+
+}
+
+.subheading {
+    font-size: 0.7em;
+    padding:10px;
+    margin-bottom: 5px;
     color: goldenrod;
+    text-align: center;
+    background-color: white;
+    text-shadow:
+        2px 2px 0 gold,           /* White outline, top left */
+        4px 4px 0 black,      /* Gold shadow, bottom right */
+        6px 6px 8px #111,         /* Deep black shadow for depth */
+        0 10px 16px rgba(0,0,0,0.35),
+        0 2px 0 rgba(0,0,0,0.5);  /* Subtle bottom shadow */
+
 }
 
 body {
@@ -303,6 +317,7 @@ div {
     padding: 5px;
     border: 3px solid white;
     border-style:ridge;
+    border-radius: 12px;
 }
 
 .boxers p {
@@ -312,6 +327,61 @@ div {
 
 .boxers p::after {
     clear:both;
+}
+
+.events {
+    background-color: black;
+    padding: 30px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.eventgrid {
+    background-color: black;
+    padding: 25px;
+    border: 5px solid goldenrod;
+    border-radius: 25px;
+    border-style: inset;
+}
+
+.eventgrid th {
+    font-size: 2em;
+    color: goldenrod;
+    border-bottom: 2px solid goldenrod;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.eventgrid td {
+    border-bottom: 1px solid goldenrod;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.main .info {
+    background-color: black;
+    padding: 20px;
+    border-bottom: 1px solid goldenrod;
+}
+
+.main .info h2 {
+    font-size: 2em;
+}
+
+.main .info p {
+    font-size: 1.5em;
+    color: goldenrod;
+}
+
+.main .info a {
+    color: white;
+}
+
+.main .info a:hover {
+    color:aquamarine;
+}
+
+.main .info a:visited {
+    color:white;
 }
 
 .footer {
@@ -349,6 +419,10 @@ div {
 
 .footer a:hover {
     color:aquamarine;
+}
+
+.footer a:visited {
+    color: white;
 }
 
 .first {
@@ -395,8 +469,8 @@ div {
     }
 
     .logo img {
-        height: 75px;
-        width: 75px;
+        height: auto;
+        width: 100px;
     }
 
     .heading {
@@ -405,12 +479,12 @@ div {
     }
 
     .subheading {
-        font-size: 1.25em;
-        margin-bottom: 0px;
+        font-size: 0.6em;
     }
 
-    .main img {
-        width: 100%
+    .main .index_logo img{
+        padding: 0px;
+        width: 100%;
     }
 
     header nav {
@@ -420,6 +494,7 @@ div {
     header nav ul li {
         display:block;
         width: 100%;
+        font-size: 1.75em;
     }
 
     .menu {
@@ -427,6 +502,7 @@ div {
         background-color: black;
         color:goldenrod;
         display:block;
+        font-size: 2em;
     }
 
     .main .image_gallery img {
@@ -454,13 +530,25 @@ div {
 
     .first, .third {
         width: 100%;
+        font-size: 1.5em;
     }
 
     .second {
         width: 100%;
+        font-size: 1.5em;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
     
     .hide {
         display:none;
     }
 }
+
+/*
+@media all and (max-height: 1000px) {
+    .logo img {
+        height: auto;
+        width: 75px;
+    }
+}*/

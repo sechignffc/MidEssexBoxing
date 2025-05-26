@@ -1,0 +1,42 @@
+[
+    {
+        "event": "Mid Essex Home Show",
+        "dates": ["25/06/25"]
+    },
+    {
+        "event": "National Development Championships",
+        "dates": ["PQFs by 05/10/25","QFs by 12/10/25","SFs 18/10/25","Final 19/10/25"]
+    },
+    {
+        "event": "Home Counties Box Cup",
+        "dates": ["October TBC"]
+    },
+    {
+        "event": "NABGC Championship",
+        "dates": ["County Rounds by 26/10/25","PQFs TBC","QFs TBC","SFs TBC","Finals 22/10/25 - 23/10/25"]
+    },
+    {
+        "event": "Women's Winter Box Cup",
+        "dates": ["SFs 06/12/25","Final 07/12/25"]
+    },
+    {
+        "event": "National Youth Championships",
+        "dates": ["Regionals by 18/01/26","PQFs by 25/01/26","QFS by 01/02/26","SFs 07/02/26","Final 08/02/26"]
+    },
+    {
+        "event": "BUCS Championships",
+        "dates": ["QFs TBC","SFs TBC","Finals TBC"]
+    },
+    {
+        "event": "National Junior Championships",
+        "dates": ["Regionals by 01/03/26","PQFs by 08/03/26","QFS by 15/03/26","SFs 21/03/26","Final 22/03/26"]
+    },
+    {
+        "event": "National Amateur Championships",
+        "dates": ["Regionals by 29/03/26","PQFs by 04/04/26","QFS 11/04/26","SFs 12/04/26","Final 18/04/26"]
+    },
+    {
+        "event": "National Schools Championships",
+        "dates": ["Regionals by 19/04/26","PQFs by 26/04/26","QFS by 03/05/26","SFs 09/05/26","Final 10/05/26"]
+    }
+]
