@@ -1,7 +1,7 @@
 [
     {
         "name" : "Luca Sechi",
-        "nickname" : "The Assassin",
+        "nickname" : "The Serb Assassin",
         "fights" : 12,
         "year" : 2012,
         "image" : "1000.jpg",
@@ -9,7 +9,7 @@
     },
     {
         "name" : "Kenny Sturt",
-        "nickname" : "Chelmsford StreetBeefs",
+        "nickname" : "The Steamroller",
         "fights" : 9,
         "year" : 2002,
         "image" : "1400.jpg",
@@ -17,10 +17,10 @@
     },
     {
         "name" : "Tommy Pemberton",
-        "nickname" : "Quicksilver",
+        "nickname" : "Pembo",
         "fights" : 7,
         "year" : 2013,
-        "image" : "3000.jpg",
+        "image" : "3300.jpg",
         "achievements" : ["Schools National Finalist"]
     },
     {
@@ -60,7 +60,7 @@
         "nickname" : "Stealth Bomber",
         "fights" : 5,
         "year" : 2010,
-        "image" : "2300.jpg",
+        "image" : "7800.jpg",
         "achievements" : ["Eastern Counties Finalist"]
     },
     {
@@ -69,6 +69,78 @@
         "fights" : 7,
         "year" : 2005,
         "image" : "2800.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Logan Grover",
+        "nickname" : "The Hunter",
+        "fights" : 0,
+        "year" : 2014,
+        "image" : "3400.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Jenson Lockwood",
+        "nickname" : "Deadlock",
+        "fights" : 7,
+        "year" : 2014,
+        "image" : "8200.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Bayley Coppin",
+        "nickname" : "The Sniper",
+        "fights" : 7,
+        "year" : 2006,
+        "image" : "1300.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Tom Charnock",
+        "nickname" : "The Surgeon",
+        "fights" : 3,
+        "year" : 1999,
+        "image" : "3600.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Tom Clarke",
+        "nickname" : "Left Lane",
+        "fights" : 2,
+        "year" : 1999,
+        "image" : "2000.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Zachary Brett",
+        "nickname" : "Checkmate",
+        "fights" : 0,
+        "year" : 2011,
+        "image" : "3700.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Matthew Kerr",
+        "nickname" : "Pure Class",
+        "fights" : 15,
+        "year" : 2007,
+        "image" : "3800.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Shae Barry",
+        "nickname" : "The General",
+        "fights" : 12,
+        "year" : 2005,
+        "image" : "3900.jpg",
+        "achievements" : []
+    },
+    {
+        "name" : "Maddie Taylor",
+        "nickname" : "Pocket Rocket",
+        "fights" : 0,
+        "year" : 2013,
+        "image" : "4100.jpg",
         "achievements" : []
     }
 ]

@@ -41,7 +41,7 @@ function createNewsGrid(news_items) {
 
     // Image cell
     const tdImage = document.createElement("td");
-    tdImage.innerHTML = `<img src='images/${item.image}' alt='' style='max-width:150px; border-radius:15px;'>`;
+    tdImage.innerHTML = `<img src='images/${item.image}' alt='' style='max-width:200px; border-radius:15px;'>`;
 
     // News/content cell
     const tdContent = document.createElement("td");
