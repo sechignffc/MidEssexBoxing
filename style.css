@@ -492,7 +492,7 @@ div {
     display:block;
 }
 
-@media all and (max-width: 925px) {
+@media all and (max-width: 1000px) {
     body{
         background-color: black;
     }
