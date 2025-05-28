@@ -6,18 +6,15 @@
 }
 
 .logo {
-    float:left;
     background-color: white;
+    flex: 0 0 auto;
 }
 
 .logo img {
-    width: 150px;
+    width: 200px;
     height:auto;
-    
-    filter: brightness(1);
     border: 1px solid white;
     border-radius: 20px;
-
 }
 
 .nav {
@@ -25,11 +22,14 @@
 }
 
 .mainheading {
+    display: flex;
+    align-items: Center;
+    gap:24px;
     border: 5px solid goldenrod;
     border-style: ridge;
     border-radius: 20px;
     padding: 10px;
-    background-color: blackwhite;
+    background-color: white;
     text-shadow:
         2px 2px 0 gold,           /* White outline, top left */
         4px 4px 0 white,      /* Gold shadow, bottom right */
@@ -39,21 +39,23 @@
 
 }
 
-.mainheading table {
-    text-align: center;
-    width: 90%;
+.mainheading h1 {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
 }
 
 .heading {
-    font-size:3em;
+    flex: 1 1 0%;
+    font-size:2em;
     padding:10px;
     font-family: "Poetsen One", sans-serif;
     text-transform: uppercase;
-
+    text-align: center;
 }
 
 .subheading {
-    font-size: 0.7em;
+    font-size: 1.5em;
     padding:10px;
     margin-bottom: 5px;
     color: goldenrod;
@@ -66,6 +68,10 @@
         0 10px 16px rgba(0,0,0,0.35),
         0 2px 0 rgba(0,0,0,0.5);  /* Subtle bottom shadow */
 
+}
+
+.header-spacer {
+    flex: 0 0 200px;
 }
 
 body {
@@ -491,23 +497,27 @@ div {
         background-color: black;
     }
 
-    .logo img {
-        height: auto;
-        width: 150px;
-    }
-
     .mainheading {
-        height: 260px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
     }
 
     .heading {
-        font-size:3em;
-        padding: 0px;
+        font-size: 1.75em;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .header-spacer {
+        display: none;  
     }
 
     .subheading {
-        font-size: 0.65em;
-    }
+        padding-top: 10px;
+        font-size: 1.2em;
+    }   
 
     .main .index_logo img{
         padding: 0px;
@@ -616,6 +626,9 @@ div {
         display:none;
     }
 }
+
+
+
 
 /*
 @media all and (max-height: 1000px) {
