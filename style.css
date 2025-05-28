@@ -126,10 +126,18 @@ header nav a:hover {
 .main .index_logo img{
     float:left;
     padding: 0px;
-    width: 20%;
+    width: 25%;
     border: 10px solid white;
     margin: 2%;
     border-style: ridge;
+}
+
+.main video {
+    padding-left: 50px;
+    border: 10px solid white;
+    margin: 2%;
+    border-style: ridge;
+    width: 50%;
 }
 
 .main .image_gallery div{
@@ -259,6 +267,8 @@ div {
 }
 
 .honours h2 {
+    padding-left: 15px;
+    margin-bottom: 0px;
     font-size: 2em;
 }
 
@@ -266,6 +276,10 @@ div {
     color: goldenrod;
     font-size: 1.5em;
     list-style: none;
+}
+
+.honours ul .winname {
+    color:white;
 }
 
 .honours tr {
@@ -501,6 +515,12 @@ div {
         width: 100%;
     }
 
+    .main video {
+        padding-left: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+
     header nav {
         text-align: left;
     }
@@ -563,13 +583,22 @@ div {
 
     .honours h1 {
         font-size: 3em;
-        padding-top: 0px;
+        padding-top: 15px;
+    }
+
+    .honours tr td:first-child {
+        padding: 50px;
+    }
+
+    .honours tr td:nth-child(1) {
+        padding: 30px;
     }
 
     .honours img {
         width: 100px;
         height: 125px;
     }
+
 
     .first, .third {
         width: 100%;
