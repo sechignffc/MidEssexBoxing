@@ -11,10 +11,10 @@
 }
 
 .logo img {
-    width: 135px;
+    width: 150px;
     height:auto;
     
-    filter: brightness(1.8);
+    filter: brightness(1);
     border: 1px solid white;
     border-radius: 20px;
 
@@ -486,7 +486,7 @@ div {
     display:block;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 925px) {
     body{
         background-color: black;
     }
@@ -497,7 +497,7 @@ div {
     }
 
     .mainheading {
-        height: 300px;
+        height: 260px;
     }
 
     .heading {
