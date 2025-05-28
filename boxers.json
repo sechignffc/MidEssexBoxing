@@ -17,11 +17,11 @@
     },
     {
         "name" : "Tommy Pemberton",
-        "nickname" : "Pembo",
-        "fights" : 7,
+        "nickname" : "Pembo Junior",
+        "fights" : 8,
         "year" : 2013,
         "image" : "3300.jpg",
-        "achievements" : ["Schools National Finalist"]
+        "achievements" : ["Schools National Semi-Finalist", "Eastern Counties Champion"]
     },
     {
         "name" : "Radley Brown",
@@ -45,7 +45,7 @@
         "fights" : 10,
         "year" : 2011,
         "image" : "8400.jpg",
-        "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist","Eastern Counties Best Female Junior 2025"]
+        "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist","3 x Eastern Counties Champion","Eastern Counties Best Female Junior 2025"]
     },
     {
         "name" : "John Purdy",
