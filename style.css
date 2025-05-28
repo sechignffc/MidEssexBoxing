@@ -515,8 +515,10 @@ div {
     }
 
     .subheading {
-        padding-top: 10px;
+        padding-top: 0px;
+        margin-top: 0px;
         font-size: 1.2em;
+        line-height: 1.5;
     }   
 
     .main .index_logo img{
