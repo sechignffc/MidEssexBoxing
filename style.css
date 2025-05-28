@@ -5,6 +5,10 @@
     box-sizing:border-box;
 }
 
+body {
+    padding: 10px;
+}
+
 .logo {
     background-color: white;
     flex: 0 0 auto;
@@ -31,11 +35,11 @@
     padding: 10px;
     background-color: white;
     text-shadow:
-        2px 2px 0 gold,           /* White outline, top left */
-        4px 4px 0 white,      /* Gold shadow, bottom right */
-        6px 6px 8px #111,         /* Deep black shadow for depth */
+        2px 2px 0 gold,           
+        4px 4px 0 white,      
+        6px 6px 8px #111,         
         0 10px 16px rgba(0,0,0,0.35),
-        0 2px 0 rgba(0,0,0,0.5);  /* Subtle bottom shadow */
+        0 2px 0 rgba(0,0,0,0.5);  
 
 }
 
@@ -146,8 +150,13 @@ header nav a:hover {
     width: 50%;
 }
 
+.main .image_gallery {
+    background-color: black;
+}
+
 .main .image_gallery div{
     width: 100%;
+    padding: 10px;
     background-color: black;  
 }
 
@@ -158,14 +167,14 @@ header nav a:hover {
     display:block;
     border-style: ridge;
     margin-left: 3%;
-    margin-top: 3%;
-
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
 .main .image_gallery button {
   padding: 12px 24px;
   width: 120px;
-  margin: 1% 10px;                 /* Space between buttons */
+  margin: 10px;                /* Space between buttons */
   background: linear-gradient(90deg, black 60%, goldenrod 140%);
   color: white;
   border: 2px solid goldenrod;
@@ -387,18 +396,18 @@ div {
 
 .main .info {
     background-color: black;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 2px solid goldenrod;
 }
 
 .main .info h2 {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 .main .info p {
     font-size: 1.5em;
     color: goldenrod;
-    padding-bottom: 30px;;
+    padding-bottom: 15px;;
 }
 
 .main .info a {
@@ -418,7 +427,7 @@ div {
     color:goldenrod;
     padding: 20px;
     background-color: black;
-    font-size: 1.25em;
+    font-size: 1.4em;
 }
 
 .footer p {
@@ -612,15 +621,14 @@ div {
         height: 125px;
     }
 
-
     .first, .third {
         width: 100%;
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 
     .second {
         width: 100%;
-        font-size: 1.5em;
+        font-size: 1.7em;
         margin-top: 15px;
         margin-bottom: 15px;
     }

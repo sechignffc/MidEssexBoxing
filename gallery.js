@@ -23,9 +23,9 @@ function cGallery(images) {
   btn2.textContent = "Next";
 
   image_gallery.append(gallery);
-  gallery.append(curImage);
   gallery.append(btn1);
   gallery.append(btn2);
+  gallery.append(curImage);
 
   btn1.style.marginLeft = "4%";
   btn2.style.marginLeft = "1%";
