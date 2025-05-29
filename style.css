@@ -616,6 +616,19 @@ div {
         vertical-align:middle;
     }
 
+    .events {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    .eventgrid {
+        padding: 0px;
+    }
+
+    .eventgrid td {
+        padding: 5px;
+    }
+
     .honours {
         background-color:black;
         margin: 10px;    
