@@ -48,10 +48,10 @@
         "achievements" : ["National Schools Winner","National Schools Finalist","National Schools Semi-finalist","3 x Eastern Counties Champion","Eastern Counties Best Female Junior 2025"]
     },
     {
-        "name" : "John Purdy",
+        "name" : "John nyPurdy",
         "nickname" : "None",
         "fights" : 0,
-        "year" : 2013,
+        "year" : 2012,
         "image" : "2400.jpg",
         "achievements" : []
     },
@@ -112,7 +112,7 @@
         "achievements" : []
     },
     {
-        "name" : "Zachary Brett",
+        "name" : "Zach Brett",
         "nickname" : "None",
         "fights" : 0,
         "year" : 2011,
