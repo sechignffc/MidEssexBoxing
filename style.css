@@ -235,17 +235,37 @@ div {
 }
 
 .news_grid {
+    display: flex;
+    flex-direction:column;
+    gap: 3px;
     background-color: black;
-    padding: 20px;
+    padding: 10px 0;
     border-bottom: 5px solid goldenrod;
 }
 
-.news_grid table {
-    padding: 5px;
+.news_item {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  text-align: left;
+  padding: 16px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: black;
 }
 
-.news_grid table td {
-    padding: 20px;
+.news_img {
+    background-color: black;
+} 
+
+.news_img img {
+  border-radius: 15px;
+  width: 200px;;
+  background-color: black;
+}
+
+.news_content {
+    background-color: black;
 }
 
 .news_grid p {
@@ -567,22 +587,14 @@ div {
         margin: 0px;
     }
 
-    .news_grid {
-        padding: 0px;
-        border-bottom: 5px solid goldenrod;
+    .news_item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
-
-    .news_grid table {
-        padding: 0px;
-    }
-
-    .news_grid table td {
-        padding: 5px;
-    }
-
-    .news_grid img {
-        width:400px;
-        max-width: 1000px;
+    .news_img img {
+        max-width: 100vw;
+        height: auto;
     }
 
     .boxers img {

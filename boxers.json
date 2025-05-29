@@ -9,8 +9,8 @@
     },
     {
         "name" : "Kenny Sturt",
-        "nickname" : "The Steamroller",
-        "fights" : 9,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2002,
         "image" : "1400.jpg",
         "achievements" : []
@@ -26,7 +26,7 @@
     {
         "name" : "Radley Brown",
         "nickname" : "Bomber",
-        "fights" : 8,
+        "fights" : 0,
         "year" : 2008,
         "image" : "2900.jpg",
         "achievements" : []
@@ -34,7 +34,7 @@
     {
         "name" : "Ron Norman",
         "nickname" : "Ronnie",
-        "fights" : 3,
+        "fights" : 0,
         "year" : 2010,
         "image" : "2500.jpg",
         "achievements" : []
@@ -49,31 +49,31 @@
     },
     {
         "name" : "John Purdy",
-        "nickname" : "Lights Out",
-        "fights" : 8,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2013,
         "image" : "2400.jpg",
         "achievements" : []
     },
     {
         "name" : "Stan Brown",
-        "nickname" : "Stealth Bomber",
-        "fights" : 5,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2010,
         "image" : "7800.jpg",
         "achievements" : ["Eastern Counties Finalist"]
     },
     {
         "name" : "Ronnie Down",
-        "nickname" : "The Italian",
-        "fights" : 7,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2005,
         "image" : "2800.jpg",
         "achievements" : []
     },
     {
         "name" : "Logan Grover",
-        "nickname" : "The Hunter",
+        "nickname" : "None",
         "fights" : 0,
         "year" : 2014,
         "image" : "3400.jpg",
@@ -81,23 +81,23 @@
     },
     {
         "name" : "Jenson Lockwood",
-        "nickname" : "Deadlock",
-        "fights" : 7,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2014,
         "image" : "8200.jpg",
         "achievements" : []
     },
     {
         "name" : "Bayley Coppin",
-        "nickname" : "The Sniper",
-        "fights" : 7,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2006,
         "image" : "1300.jpg",
         "achievements" : []
     },
     {
         "name" : "Tom Charnock",
-        "nickname" : "The Surgeon",
+        "nickname" : "None",
         "fights" : 3,
         "year" : 1999,
         "image" : "3600.jpg",
@@ -105,7 +105,7 @@
     },
     {
         "name" : "Tom Clarke",
-        "nickname" : "Left Lane",
+        "nickname" : "None",
         "fights" : 2,
         "year" : 1999,
         "image" : "2000.jpg",
@@ -113,7 +113,7 @@
     },
     {
         "name" : "Zachary Brett",
-        "nickname" : "Checkmate",
+        "nickname" : "None",
         "fights" : 0,
         "year" : 2011,
         "image" : "3700.jpg",
@@ -121,23 +121,23 @@
     },
     {
         "name" : "Matthew Kerr",
-        "nickname" : "Pure Class",
-        "fights" : 15,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2007,
         "image" : "3800.jpg",
         "achievements" : []
     },
     {
         "name" : "Shae Barry",
-        "nickname" : "The General",
-        "fights" : 12,
+        "nickname" : "None",
+        "fights" : 0,
         "year" : 2005,
         "image" : "3900.jpg",
         "achievements" : []
     },
     {
         "name" : "Maddie Taylor",
-        "nickname" : "Pocket Rocket",
+        "nickname" : "None",
         "fights" : 0,
         "year" : 2013,
         "image" : "4100.jpg",
