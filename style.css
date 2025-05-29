@@ -631,25 +631,36 @@ div {
 
     .honours {
         background-color:black;
-        margin: 10px;    
+        margin: 0px;  
+        padding: 0px;  
     }
 
     .honours h1 {
-        font-size: 3em;
+        font-size: 2em;
         padding-top: 15px;
     }
 
+    .honours h2 {
+        font-size: 1.5em;
+        padding-left: 5px;
+    }
+
     .honours tr td:first-child {
-        padding: 50px;
+        padding: 0px;
     }
 
     .honours tr td:nth-child(1) {
-        padding: 30px;
+        padding: 0px;
     }
 
     .honours img {
         width: 100px;
         height: 125px;
+    }
+
+    .honours ul {
+        font-size: 1.1em;
+        padding-left: 8px;
     }
 
     .first, .third {
