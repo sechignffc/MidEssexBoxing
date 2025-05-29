@@ -98,17 +98,17 @@
     {
         "name" : "Tom Charnock",
         "nickname" : "None",
-        "fights" : 3,
+        "fights" : 2,
         "year" : 1999,
-        "image" : "3600.jpg",
+        "image" : "2000.jpg",
         "achievements" : []
     },
     {
         "name" : "Tom Clarke",
         "nickname" : "None",
-        "fights" : 2,
+        "fights" : 3,
         "year" : 1999,
-        "image" : "2000.jpg",
+        "image" : "3600.jpg",
         "achievements" : []
     },
     {
