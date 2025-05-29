@@ -323,13 +323,21 @@ div {
 
 .boxers {
     background-color: black;
-    padding: 30px;
+    padding: 20px;
     color:black;
     border-bottom: 2px solid goldenrod;
 }
 
 .boxers div {
     background-color: black;
+}
+
+.boxerCard h1 {
+    margin-top: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: white;
 }
 
 .boxers select {
