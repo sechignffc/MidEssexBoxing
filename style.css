@@ -535,7 +535,7 @@ div {
     }
 
     .heading {
-        font-size: 1.75em;
+        font-size: 1.3em;
         padding: 15px;
         margin-bottom: 10px;
     }
@@ -547,7 +547,7 @@ div {
     .subheading {
         padding-top: 0px;
         margin-top: 0px;
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.5;
     }   
 
@@ -597,13 +597,19 @@ div {
         height: auto;
     }
 
+    .boxers {
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
     .boxers img {
         width:90%;
-        min-width: 30%;
+        min-width: 50%;
     }
 
     .boxers td {
         padding-left: 5px;
+        font-size: 11px;
     }
 
     .boxers td:nth-child(2) {
@@ -635,12 +641,12 @@ div {
 
     .first, .third {
         width: 100%;
-        font-size: 1.7em;
+        font-size: 1.2em;
     }
 
     .second {
         width: 100%;
-        font-size: 1.7em;
+        font-size: 1.2em;
         margin-top: 15px;
         margin-bottom: 15px;
     }
